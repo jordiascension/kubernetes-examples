@@ -4,3 +4,5 @@ https://www.aleksandrhovhannisyan.com/blog/crlf-vs-lf-normalizing-line-endings-i
 git add --renormalize .
 -Verify line endings
 git ls-files --eol
+
+kubectl create -f nginx-deployment.yaml
